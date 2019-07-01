@@ -1,0 +1,281 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #64707b;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#home-cover {
+    height: 100%;
+    background-repeat: no-repeat;
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#home {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(bg-home.jpg) no-repeat center center fixed;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#st {
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 12px 26px 12px 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-color: #fff;
+    color: #fff;
+}
+
+#st:hover,
+#st:focus {
+    background: #fff;
+    color: #41464b;
+}
+
+.bg-parallax {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#homeheading {
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+
+#home-btn {
+    animation-delay: 2s;
+    animation-duration: .5s;
+}
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto;
+}
+
+.service-item {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.service-item-icon:hover {
+    color: #fff;
+    background-color: #34c6d3;
+}
+
+.service-item-title h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.service-item-des p {
+    margin-top: 0px;
+    padding-left: 85px;
+    padding-top: 0px;
+    display: block;
+}
+
+.service-item-title {
+    margin-bottom: 0px;
+}
+
+#btn {
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 12px 26px 12px 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+#btn:hover,
+#btn:focus {
+    background: #34c6d3;
+    color: #fff;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+    background-image: url(bg-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.row.no-gutters[class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5)
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: 0.5s;
+}
+
+.owl-dot.active span {
+    background: #34c6d3;
+}
+
+.team-member {
+    margin: 0 15px;
+}
+
+.team-member-info {
+    margin: 10px;
+}
+
+.social-list{
+    padding-left: none;
+
+}
+
+.social-list li{
+
+    list-style: none;
+    display: inline;
+    width: 32px;
+    height:32px;
+    margin: 0 auto;
+}
+.social-icon{
+    font-size: 30px;
+}
+#pricing-b{
+     border-width: 2px;
+     border-radius: 0px;
+     padding: 12px 26px 12px 26px;
+     font-weight: 400;
+      text-transform: uppercase;
+      border-color: #34c6d3;
+      color: #34c6d3;
+}
+#pricing-b:hover,
+#pricing-b:focus {
+    background: #34c6d3;
+    color: #fff;
+}
+
+.pricing-box{
+    border:3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+h4.pricing-title{
+background-color: #34c6d3;
+color: #fff;
+display: inline-block;
+padding: 7px 15px;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0 0 30px;
+}
+h3.pricing-value{
+    font-size: 60px;
+    font-weight: 700;
+      
+}
+h3.pricing-value sup{
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: super;
+}
+ul.pricing-spec{
+    list-style:none ;
+    padding-left: 0;
+    margin: 20px 0 50 px 0;
+
+}
+ul.pricing-spec li  p{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.client{
+    padding: 40px 0;
+    
+}
